@@ -6,7 +6,7 @@ var questionTypes = 'multiple-choice conditional single-blank multiple-blank tru
 
 var QuestionSchema = new Schema({
 	
-	question: {
+	content: {
 		type: String,
 		required: true,
 		trim: true
