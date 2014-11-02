@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  db: 'mongodb://localhost/mean-dev1',
+  db: 'mongodb://localhost/quizr',
 	debug: 'true',
   mongoose: {
     debug: false
   },
   app: {
-    name: 'MEAN - FullStack JS - Development'
+    name: 'Quizr'
   },
   facebook: {
     clientID: 'DEFAULT_APP_ID',
