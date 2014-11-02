@@ -1,6 +1,6 @@
 'use strict';
 
-var mongoose = requrie('mongoose');
+var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 var questionTypes = 'multiple-choice conditional single-blank multiple-blank true/false calculation'.split(' ');
 
