@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.questions').factory('Questions', ['$resource'
+angular.module('mean.questions').factory('Questions', ['$resource',
   function($resource) {
     return $resource('questions/:questionId', {
     	articleId:'@_id'
@@ -8,6 +8,6 @@ angular.module('mean.questions').factory('Questions', ['$resource'
 			update: {
 				method: 'PUT'
 			}
-		})
+		});
   }
 ]);

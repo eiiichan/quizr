@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('mean.questions').controller('QuestionsController', ['$scope', 'Global', 'Questions',
-  function($scope, Global, Questions) {
+angular.module('mean.questions').controller('QuestionsController', ['$scope', '$stateParams', '$location', 'Global', 'Questions',
+  function($scope, $stateParams, $location, Global, Questions) {
     $scope.global = Global;
     
     $scope.create = function(isValid) {
